@@ -1,10 +1,10 @@
-package com.alura.forohub;
+package com.foro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ForohubApplicationTests {
+class ForoHubApplicationTests {
 
 	@Test
 	void contextLoads() {
