@@ -34,19 +34,19 @@ ForoHub es una aplicación de foro construida con Java y Spring Boot. Esta API R
    Edita el archivo `src/main/resources/application.properties` para incluir tus credenciales de MySQL:
 
    ```properties
-spring.datasource.url=jdbc:mysql://localhost/forohub
-spring.datasource.username=nombre_de_usuario
-spring.datasource.password=contraseña_de_usuario
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+   spring.datasource.url=jdbc:mysql://localhost/forohub
+   spring.datasource.username=nombre_de_usuario
+   spring.datasource.password=contraseña_de_usuario
+   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+   spring.jpa.hibernate.ddl-auto=update
+   spring.jpa.show-sql=true
 
 
-spring.flyway.enabled=true
-spring.flyway.locations=classpath:db/migration
+   spring.flyway.enabled=true
+   spring.flyway.locations=classpath:db/migration
 
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
    ```
 
 4. **Compilar y ejecutar la aplicación:**
